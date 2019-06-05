@@ -1,0 +1,32 @@
+﻿body {
+  padding: 20px;
+  /*font-family: Helvetica;*/
+  background-color: #20262e;
+}
+
+.gallery ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery li {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+    list-style: none;
+}
+
+.info {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #fff;
+}
+.responsive {
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 200px;
+}
